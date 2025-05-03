@@ -1,1 +1,7 @@
+Proposed System / Solution
 
+The proposed system focuses on enhancing image clarity using a deep learning-based approach through knowledge distillation. It involves:
+A high-performing teacher model trained on high-resolution images.
+A student model, significantly lighter and faster, that learns to replicate the teacher's performance.
+Image sharpening is learned by minimizing differences in visual quality between the blurred and the enhanced output, guided by the teacher.
+The model processes 1080p images at 30–60 FPS, ensuring real-time performance in conferencing tools.
